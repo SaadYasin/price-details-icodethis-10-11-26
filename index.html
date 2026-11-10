@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwindcss CDN -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+     <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <title>Document</title>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --color-bgBody: #2c2446;
+        --color-bgContainer: #1b1b38;
+        --color-bgCircle: #3457dd;
+        --color-btnHover: #2a45a3;
+      }
+    </style>
+</head>
+<body class="bg-[var(--color-bgBody)] min-h-screen w-full">
+    <!-- Container -->
+    <div class="bg-[var(--color-bgContainer)] w-full max-w-[1200px] min-h-screen overflow-hidden mx-auto relative px-4 sm:px-8 pb-12">
+        <div aria-hidden="true" class="absolute -top-162 -left-7 w-[1900px] h-[1900px] pointer-events-none">
+            <svg class="w-full h-full" id="exNeMnlU0Oi1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" project-id="59ac7b677d1c4873b1d46b17e29e9efb" export-id="85eaea91ed1e4b288f600a2b89e33df9" cached="false"><ellipse rx="36.6" ry="36.6" transform="translate(150 150)" fill="#3457dd" stroke-width="0"/>
+            </svg> 
+        </div>
+
+        <div aria-hidden="true" class="absolute top-18 -left-55 w-[1000px] h-[1000px] pointer-events-none">
+            <svg class="w-full h-full" id="exNeMnlU0Oi1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" project-id="59ac7b677d1c4873b1d46b17e29e9efb" export-id="85eaea91ed1e4b288f600a2b89e33df9" cached="false"><ellipse rx="36.6" ry="36.6" transform="translate(150 150)" fill="#3457dd" stroke-width="0"/>
+            </svg> 
+        </div>
+        <!-- Hero text -->
+         <div class="relative z-10 mx-auto max-w-xl pt-20 sm:pt-24">
+           <h1 class="text-2xl sm:text-[1.75rem] text-white text-center text-base/8 font-bold font-sans max-w-72 mx-auto">Get the best package for your business</h1>
+         <p class="text-[.95rem] text-white text-center font-normal text-base/5 max-w-[375px] mx-auto mt-6 sm:mt-8">
+            Let's find the boardme solution and service package that's right for your organization!
+         </p> 
+         </div>
+         
+
+        <!-- Cards -->
+         <section class="relative z-10 grid grid-cols-1 lg:grid-cols-2 justify-items-center items-start gap-6 lg:gap-8 mt-10 sm:mt-12">
+
+            <!-- Left card -->
+            <div class="flex flex-col justify-center items-start w-full max-w-[385px] min-h-[328px] bg-white rounded px-6 sm:px-11.5 py-8 gap-10 sm:gap-12">
+                <h1 class="text-[1.125rem] font-bold">Pricing is based on:</h1>
+                <div>
+                    <h3 class="text-[.85rem] font-bold">Number of users</h3>
+                    <p class="text-[.75rem] font-normal">People who will be guided.</p>
+                </div>
+                <div>
+                    <h3 class="text-[.85rem] font-bold">Feature-Set</h3>
+                    <p class="text-[.75rem] font-normal">Only pay what you use.</p>
+                </div>
+            </div>
+                
+            <!-- Right card -->
+            <div class="w-full max-w-[385px] min-h-[524px] bg-white rounded py-10 px-6 sm:py-11.5 sm:px-10 lg:px-11.5 gap-7 flex flex-col justify-center items-start">
+                <h1 class="text-[1.125rem] font-bold">What we offer</h1>
+                <div class="flex justify-left items-start">
+                   <span><i class="fa-solid fa-check mr-2"></i></span><p class="text-[.85rem] font-normal">Full ownership of the purchased product</p> 
+                </div>
+
+                <div class="flex justify-left items-start">
+                   <span><i class="fa-solid fa-check mr-2"></i></span><p class="text-[.85rem] font-normal">Complete control over your data</p> 
+                </div>
+
+                <div class="flex justify-left items-start">
+                   <span><i class="fa-solid fa-check mr-2"></i></span><p class="text-[.85rem] font-normal">Dedicated environment</p> 
+                </div>
+
+                <div class="flex justify-left items-start">
+                   <span><i class="fa-solid fa-check mr-2"></i></span><p class="text-[.85rem] font-normal">Customer success program</p> 
+                </div>
+
+                <div class="flex justify-left items-start">
+                   <span><i class="fa-solid fa-check mr-2"></i></span><p class="text-[.85rem] font-normal">Periodic product updates</p> 
+                </div>
+
+                <div class="flex justify-left items-start">
+                   <span><i class="fa-solid fa-check mr-2"></i></span><p class="text-[.85rem] font-normal">Tailored solutions and integrations</p> 
+                </div>
+
+                <button class="w-29 py-2 bg-[#3457dd] text-[.75rem] text-white rounded-full hover:bg-[var(--color-btnHover)] hover:shadow-xl/20 cursor-pointer">Get a quote</button>
+                
+            </div>
+         </section>
+    </div>
+    
+    
+</body>
+</html>
